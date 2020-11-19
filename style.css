@@ -4,8 +4,8 @@
 
 body {
     background: #3b52b4;
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(191, 207, 214);
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
@@ -28,7 +28,7 @@ button {
   border: 1px solid #dedede;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  font-size: 14px;
+  font-size: 16px;
   padding: 8px 10px;
   margin: 0;
 }
@@ -133,6 +133,8 @@ input[type='text'] {
     padding: 5px;
     margin: 0 5px 5px 0;
 }
+
+/* Responsiveness */
 
 @media(max-width: 800px) {
     .meals {
